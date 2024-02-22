@@ -1,9 +1,8 @@
 
 
 
-
-void main()
+int main()
 {
 
-    
+
 }
