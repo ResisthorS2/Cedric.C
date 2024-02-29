@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "PowerShell: Launch Current File",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${file}",
+      "args": []
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cedri/OneDrive/Bureau/S2/project/Code/Cedric.C",
-      "program": "c:/Users/cedri/OneDrive/Bureau/S2/project/Code/Cedric.C/build/Debug/outDebug",
+      "cwd": "c:/Users/cedri/OneDrive/Bureau/S2/project/Code/Cedric.C/Arduino/src",
+      "program": "c:/Users/cedri/OneDrive/Bureau/S2/project/Code/Cedric.C/Arduino/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
